@@ -1,0 +1,100 @@
+html,
+body {
+  font-family: "Lato", "Noto Sans TC", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7f8;
+  color: #333333;
+}
+
+header {
+  height: 60px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  color: #666666;
+}
+
+nav {
+  /*   outline: 3px solid green; */
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nave-link {
+  color: #999999;
+}
+.nave-link:hover {
+  color: #ff6600;
+}
+
+main {
+  /*   outline: 3px solid green; */
+  margin: 0 auto;
+  padding: 40px 90px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: 500;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  color: #ff6600;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/* personal-info */
+
+.avatar {
+  /*   outline: 3px solid green; */
+  text-align: center;
+}
+
+.avatar-img {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin: 20px 0;
+}
+
+.section-title {
+  text-align: center;
+}
+
+/* quesations */
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #666666;
+  margin: 20px 0;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+.info {
+  font-size: 19px;
+  font-weight: 500;
+}
