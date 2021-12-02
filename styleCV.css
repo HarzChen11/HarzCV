@@ -1,0 +1,80 @@
+html,
+body {
+  font-family: "Lato", "Noto Sans TC", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7f8;
+  color: #333333;
+}
+
+nav {
+  /*   outline: 3px solid red; */
+  background-color: #b0c4de;
+  height: 150px;
+  padding: 50px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+  letter-spacing: 1px;
+  width: 2000px;
+}
+
+.social-media-link {
+  text-decoration: none;
+  color: #808080;
+  font-size: 18px;
+  margin: 23px;
+}
+
+.nave-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.school-name {
+  padding-bottom: 8px;
+  font-size: 19px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #c0c0c0;
+  margin: 20px 0;
+  width: 920px;
+}
+
+.school-container {
+  padding: 20px 0 0 50px;
+  letter-spacing: 1px;
+}
+
+.experience-container {
+  /*   outline: 3px solid tomato; */
+  padding: 20px 0 0 50px;
+}
+
+.h3 {
+  font-size: 25px;
+}
+
+.fa-building,
+.fa-school,
+.fa-calendar-alt,
+.fa-birthday-cake {
+  color: #ff6600;
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+.social-media-link:hover {
+  color: #ff6347;
+  filter: drop-shadow(8px 8px 11px #faf0e6);
+}
+
+.birthday {
+  margin-top: 14px;
+  font-size: 17px;
+}
